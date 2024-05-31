@@ -69,7 +69,7 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy VenomX Userbot ✨",
+                            "💥 Deploy shadow Userbot ✨",
                             url=f"https://github.com/venombolteop/Venom-Userbot"
                         )
                     ]
@@ -80,11 +80,11 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://te.legra.ph/file/0b373de1c657129297c39.jpg",
-                                title="🥀 VenomX Userbot ✨",
-                                thumb_url=f"https://te.legra.ph/file/0b373de1c657129297c39.jpg",
+                                photo_url=f"https://i.ibb.co/4FM6tyQ/imgtg.jpg",
+                                title="🥀 shadow Userbot ✨",
+                                thumb_url=f"https://i.ibb.co/4FM6tyQ/imgtg.jpg",
                                 description=f"❤ Deploy Your Own Venom-Userbot 🌿...",
-                                caption=f"<b>🥀 Welcome » To » VenomX 🤍\n✅ Userbot {__version__} ✨...</b>",
+                                caption=f"<b>🥀 Welcome » To » shadow 🤍\n✅ Userbot {__version__} ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -100,7 +100,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own VenomX Userbot❗...\n\nRepo:** <i>https://github.com/venombolteop/Venom-Userbot/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own shadow Userbot❗...\n\nRepo:** <i>https://github.com/venombolteop/Venom-Userbot/</i>||"
                                 ),
                             )
                         )

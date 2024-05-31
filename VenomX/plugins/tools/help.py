@@ -57,12 +57,12 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
 **🥀 Welcome To Help Menu Of
-VenomX Userbot » {__version__} ✨...
+shadow Userbot » {__version__} ✨...
 
 Click On Below 💖 Buttons To
 Get Userbot Commands.
 
-💘Powered By : [Venom](https://t.me/Venomowners).**
+By : [Mahesh](https://t.me/sleeeping_guy).**
 """
     
     if plug_match:

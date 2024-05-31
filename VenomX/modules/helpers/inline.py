@@ -11,22 +11,22 @@ async def help_menu_logo(answer):
     if image:
         thumb_image = image
     else:
-        thumb_image = "https://te.legra.ph/file/0b373de1c657129297c39.jpg"
+        thumb_image = "https://i.ibb.co/4FM6tyQ/imgtg.jpg"
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
             title="🥀 Help Menu ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of VenomX-Userbot ✨...",
+            description=f"🥀 Open Help Menu Of  shadow Userbot ✨...",
             caption=f"""
 **🥀 Welcome To Help Menu Of
-VenomX Userbot » {__version__} ✨...
+sleep Userbot » {__version__} ✨...
 
 Click On Below 💖 Buttons To
 Get Userbot Commands.
 
-💕Powered By : [Venom](https://t.me/Venomowners).**
+By : [Mahesh](https://t.me/sleeeping_guy).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -42,12 +42,12 @@ async def help_menu_text(answer):
             title="🥀 Help Menu ✨",
             input_message_content=InputTextMessageContent(f"""
 **🥀 Welcome To Help Menu Of
-VenomX Userbot » {__version__} ✨...
+shadow Userbot » {__version__} ✨...
 
 Click On Below 💓 Buttons To
 Get Userbot Commands.
 
-💘Powered By : [Venom](https://t.me/VenomOwners).**""",
+By : [Mahesh](https://t.me/sleeeping_guy).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
